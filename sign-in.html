@@ -1,22 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="Description" content="Enter your description here"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/main.css">
-<title>Sign In</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="css/main.css"> -->
+    <script src="https://kit.fontawesome.com/e655831afd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/sign-in.css">
+    <title>Sign In</title>
 </head>
+
 <body>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"></script>
+    <div class="container">
+        <div class="row justify-content-start">
+
+            <!-- Sign-Up Area -->
+
+            <div class="col">
+
+                <!-- Sign-Up Header -->
+                <div class="h2">Don't Have an Account Yet?<br>
+                    What are you waiting for? Let's Fix that now!<br><br>
+
+                    <!-- Button -->
+                    <input class="btn btn-primary sign-up-button rounded-pill text-center" type="submit"
+                        value="Sign Up"><br><br>
+
+
+                </div>
+
+                <!-- Sign-Up Image -->
+                <img class="img-fluid float-end d-sm-none d-md-block d-none d-sm-block" src="images\Group 15@2x.png"
+                    alt="rocket">
+
+
+            </div>
+
+            <!-- Space Between -->
+            <div class="col-3 space">
+
+            </div>
+
+            <!-- Sign In Area -->
+            <div class="col sign-in">
+
+                <!-- Sign In Header -->
+
+                <div class="header position-center">
+                    <h1 class="pt-5 pe-5">Sign In</h1><br><br>
+
+
+                    <!-- Input Forms -->
+
+                    <div class="mb-3 ps-5 fontuser">
+                        <input type="email" class="form-control input-style rounded-pill" id="exampleFormControlInput1"
+                            placeholder="">
+                        <i class="far fa-user"></i>
+                    </div><br>
+                    <div class="mb-3 ps-5 fontuser2">
+                        <input type="email" class="form-control input-style rounded-pill" id="exampleFormControlInput1"
+                            placeholder=""><i class="far fa-envelope"></i>
+                    </div><br>
+                    <div class="ps-5 fontuser3">
+                        <input type="email" class="form-control input-style rounded-pill" id="exampleFormControlInput1"
+                            placeholder=""><i class="fas fa-lock"></i>
+                    </div><br><br>
+
+
+                    <!-- Button -->
+                    <input class="btn btn-primary sign-in-button pe-3 rounded-pill" type="submit" value="Sign In">
+                    <br><br>
+                    <!-- Social Media Icons -->
+
+                    <div class="socialmedia">
+                        <h4>Or Sign in with social platforms</h4>
+                    </div><br>
+
+                    <ul class="social">
+                        <li>
+                            <a href="https://twitter.com/" title="">
+                                <span class="icon fa fa-twitter"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" title="">
+                                <span class="icon fa fa-facebook"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/" title="">
+                                <span class="icon fab fa-google"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/" title="">
+                                <span class="icon fa fa-linkedin"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"></script>
 </body>
+
 </html>
