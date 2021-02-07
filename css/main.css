@@ -16,8 +16,13 @@
     src: url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+.solid{
+    width:70%;
+    margin:auto;
+}
 .card-text{
-    padding:20%;
+    padding-top:20%;
+    padding-bottom: 20%;
     color:rgb(114, 112, 112);
     font-family: 'Roboto', sans-serif;
 }
@@ -37,19 +42,25 @@
     align-self: center;
     justify-content: center;
     align-items:center;
-    padding-top: 15%;
+    justify-content: space-evenly;
+    width: 130px;
+    height: 170px;
+    border-radius: 10px;
 }
 .singlecards:hover{
     background-color: 	rgba(2, 117, 216, .5);
-    color-adjust: white;
+    color: white !important;
 }
+
+/* Container 2 styling Stackable Card and left IMG*/
+
 .container2{
     margin-top: 60px;
     align-content: center;
-    border-radius: 6px;
-    border:1px solid gray;
-    flex-direction: column ;
-    padding:0;
+    border: 0;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px; 
 }
 
 .container2text{
@@ -69,18 +80,44 @@
     color:white;
     justify-content: right;
 }
-/* .four-cards{
-    align-content: center;
-    align-self: center;
-    justify-content: center;
-    align-items:center;
-} */
+.learnmorebtn:hover{
+    color:inherit;
+    opacity: 1;
+    box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.3),
+      6px 6px 10px rgba(0, 0, 0, 0.2);
+
+}
+
 .bi-chevron-right{
     float:right;
     justify-self: center;
     align-self: baseline;
+    margin-right:10px;
+    margin-left: 10px;
+    margin-top: 3px;
 }
-.pictureleft{
-    padding:60px;
-    border: transparent;
+.pictureleft {
+    border: 0;
+    width: 100%;
+    padding-top: 10%;
+}
+
+/* Container 3 styling 4 cards with rounded IMG */
+
+.heading-container3{
+    padding-top: 8%;
+    padding-bottom: 5%;
+}
+
+.btn-outline-dark{
+    width: 50%;
+}
+.btn-outline-dark:hover{
+    color:inherit;
+    opacity: 1;
+    box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.3),
+    6px 6px 10px rgba(0, 0, 0, 0.2);
+}
+.single-card-bottom{
+    padding: 10%;
 }
