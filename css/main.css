@@ -1,3 +1,41 @@
+
+.navbar{
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.nav-link{
+    color: black;
+}
+.navbar-collapse{
+    justify-content: center;
+    font-size: small;
+}
+.nav-item{
+    padding-right: 3em;
+}
+/* .navbar-brand{
+    padding-top: 0;
+} */
+
+.navbar-toggler-icon{
+    background-image: url('http://assets.stickpng.com/images/588a64e7d06f6719692a2d11.png');
+}
+
+button{
+    border-radius: 25%;
+    align-items: center;
+}
+.rounded {
+    border-radius: .50rem!important;
+}
+
+.sign-up {
+    /* color: #0d6efd; */
+    text-decoration: underline;
+    color: white;
+}
+
 /* latin */
 @font-face {
     font-family: 'Roboto';
@@ -112,6 +150,7 @@
     padding-top: 8%;
     padding-bottom: 5%;
 }
+
 
 .btn-outline-dark{
     width: 50%;
