@@ -1,28 +1,32 @@
 .container1{
-    padding: 0% 30%;
     justify-content: center;
 }
 hr{
-    margin: 0 auto;
+    margin: auto;
     color: grey;
     width: 500px;
 }
-.container2{
+.container2 {
     font-family: 'Roboto', sans-serif;
-    margin:0;
-    padding:60px;
     line-height: 3em;
     font-weight: 100;
-    border: 3px solid gray;
-    border-radius: 10px;
+    border-style: 1px, solid, gray;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px
+    margin: 0
+     
+    
+
 }
-.container3{
+.container3 {
     font-family: 'Roboto', sans-serif;
     margin:0;
     padding:60px;
     line-height: 3em;
     font-weight: 100;
-    border-radius: 10px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
 }
 .info-card{
     text-align: center;
